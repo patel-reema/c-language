@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int a = 65;
+	char ch = 'A';
+
+
+	clrscr();
+
+	printf("A:%c\n",a);
+	printf("A:%d",a);
+
+	printf("\n\n");
+
+	printf("A:%d\n",a);
+	printf("A:%f",(float)a);
+
+	getch();
+
+}
