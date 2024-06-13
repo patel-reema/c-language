@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int c;
+	int ans;
+	clrscr();
+	printf("Enter teh value of celsius:");
+	scanf("%d",&c);
+	printf("f=(c*59)+32=");
+	ans=(c*59)+32;
+	printf("%d",ans);
+
+
+
+	getch();
+
+
+
+
+
+}
