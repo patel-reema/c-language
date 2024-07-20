@@ -3,19 +3,15 @@
 
 main()
 {
-	int a=1,n;
+	int a=1;
 	clrscr();
-	printf("Enter any number: ");
-	scanf("%d",&n);
 
-	while(a<=n)
+	do
 	{
-		if(a%2!=0)
-		{
 		printf("%d\t",a);
-		}
 		a++;
-	}
+
+	}while(a<=10);
 
 	getch();
 }

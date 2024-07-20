@@ -9,15 +9,28 @@ main()
 	printf("Enter any number: ");
 	scanf("%d",&n);
 
-	while(a<=n)
+	do
 	{
-		printf("%d\t",a);
-		a++;
-	}
+		if(a%2==0)
+		{
+			printf("%d\t",a);
+		}a++;
+	}while(a<=n);
 
 	getch();
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
