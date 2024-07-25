@@ -1,17 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
 
-main()
-{
-	int a=1;
-	clrscr();
+main(){
+	printf
 
-	do
-	{
-		printf("%d\t",a);
-		a++;
 
-	}while(a<=10);
 
-	getch();
 }

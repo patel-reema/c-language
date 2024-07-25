@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int arm,n;
+	int rem, mul,sum=0;
+	clrscr();
+
+	printf("Enter any number : ");
+	scanf("%d",&n);
+
+	while(n!=0)
+	{
+		rem=n%10;
+		mul=rem*rem*rem;
+		sum+=mul;
+		n=n/10;
+	}
+
+	getch();
+}
